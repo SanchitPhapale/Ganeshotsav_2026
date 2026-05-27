@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>रुपामाता गणेशोत्सव 🎆</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style></style>
+  </head>
+
+  <body>
+    <!-- ================= SOUND EFFECT ================= -->
+
+    <audio id="welcomeSound">
+      <source
+        src="bell.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+
+    <!-- ================= LOADER ================= -->
+    <!-- ================= CURSOR GLOW ================= -->
+
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <div id="loader">
+      <div class="loader-content">
+        <h1>🙏 गणपती बाप्पा मोरया 🙏</h1>
+
+        <div class="loader"></div>
+
+        <p>Loading Mandal Website...</p>
+      </div>
+    </div>
+
+    <!-- ================= ANNOUNCEMENT ================= -->
+
+    <div class="announcement-bar">
+      <div class="announcement-text">
+        📢 Today's Announcement : Ganpati Aagman Sohala starts at 6:00 🌺 •
+        Welcome Everyone 🙏
+      </div>
+    </div>
+
+    <!-- ================= BELLS ================= -->
+
+    <div class="corner-bells left-bells">
+      <div class="bell">🔔</div>
+      <div class="bell">🔔</div>
+    </div>
+
+    <div class="corner-bells right-bells">
+      <div class="bell">🔔</div>
+      <div class="bell">🔔</div>
+    </div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav>
+      <div class="logo">🙏 गणपती बाप्पा मोरया 🙏</div>
+
+      <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+      <div class="dropdown-menu" id="dropdownMenu">
+        <a href="#home">🏠 Home</a>
+        <a href="#about">📖 About</a>
+        <a href="#gallery">📸 Gallery</a>
+        <a href="#expenses">💸 गणपती खर्च</a>
+        <a href="#donation">🙏 वर्गणी जमा</a>
+        <a href="#money-status">💰 एकूण पैसे</a>
+        <a href="#contact">📞 Contact</a>
+      </div>
+    </nav>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+      <h1>💫 रुपामाता मित्र मंडळ 💫</h1>
+
+      <p>---✨ Welcome To Our Ganpati Festival ✨---</p>
+
+      <button class="btn">💐 Ganapati Bappa Morya 💐</button>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+      <h1 class="title">🙏 About Our Mandal 🙏</h1>
+
+      <div class="about-container">
+        <div class="about-card">
+          <h2>🏵️ रुपामाता मित्र मंडळ</h2>
+
+          <p>
+            रुपामाता मित्र मंडळ हे आपल्या परिसरातील प्रसिद्ध गणेश मंडळ आहे.
+            दरवर्षी मोठ्या उत्साहात गणेशोत्सव साजरा केला जातो.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h2>🎉 समारंभ (उत्सव)</h2>
+
+          <p>
+            Ganpati Decoration, Lighting, DJ, Dhol-Tasha, Mahaprasad आणि Social
+            Activities आयोजित केल्या जातात.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h2>❤️ ध्येय (कार्य)</h2>
+
+          <p>
+            समाजात एकता, प्रेम आणि संस्कृती जपणे हेच आमचे मुख्य उद्दिष्ट आहे.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+
+    <section id="gallery">
+      <h1 class="title">📸 Ganpati Gallery 📸</h1>
+
+      <div class="gallery">
+        <img src="image1.jpg" />
+
+        <img src="image1.jpg" />
+
+        <img src="image1.jpg" />
+
+        <img src="image1.jpg" />
+      </div>
+    </section>
+
+    <!-- ================= EXPENSES ================= -->
+
+    <section id="expenses">
+      <h1 class="title">💸 गणपती खर्च 2026 💸</h1>
+
+      <div class="table-wrapper">
+        <table>
+          <tr>
+            <th>Sr No.</th>
+            <th>Item</th>
+            <th>Amount</th>
+          </tr>
+
+          <tr>
+            <td>1</td>
+            <td>Decoration</td>
+            <td>₹ 15,000</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Lighting</td>
+            <td>₹ 8,000</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Sound System</td>
+            <td>₹ 12,000</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Flowers</td>
+            <td>₹ 4,000</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>DJ Setup</td>
+            <td>₹ 7,000</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Generator</td>
+            <td>₹ 5,000</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Prasad</td>
+            <td>₹ 2,500</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Security</td>
+            <td>₹ 3,500</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Cleaning</td>
+            <td>₹ 2,000</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Water Supply</td>
+            <td>₹ 1,500</td>
+          </tr>
+
+          <tr class="hidden-expense">
+            <td>11</td>
+            <td>Extra Decoration</td>
+            <td>₹ 4,500</td>
+          </tr>
+        </table>
+      </div>
+
+      <div style="text-align: center">
+        <button class="more-btn" onclick="showMoreExpenses(this)">
+          ⬇️ Many More ⬇️
+        </button>
+      </div>
+    </section>
+
+    <!-- ================= DONATION ================= -->
+
+    <section id="donation">
+      <h1 class="title">🙏 वर्गणी जमा यादी 2026🙏</h1>
+
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="🔍 Search Your Name..."
+        />
+      </div>
+
+      <div class="table-wrapper">
+        <table id="donationTable">
+          <tr>
+            <th>Sr No.</th>
+            <th>Name</th>
+            <th>Amount</th>
+          </tr>
+
+          <tr>
+            <td>1</td>
+            <td>Rahul Sharma</td>
+            <td>₹ 500</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Amit Patil</td>
+            <td>₹ 1000</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Rohit Jadhav</td>
+            <td>₹ 700</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Akash More</td>
+            <td>₹ 900</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Sachin Kale</td>
+            <td>₹ 800</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Yash Patil</td>
+            <td>₹ 1200</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Aditya Mane</td>
+            <td>₹ 500</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Om Jadhav</td>
+            <td>₹ 600</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Pratik Pawar</td>
+            <td>₹ 700</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Harsh Patil</td>
+            <td>₹ 500</td>
+          </tr>
+
+          <tr class="hidden-donation">
+            <td>11</td>
+            <td>Nikhil More</td>
+            <td>₹ 900</td>
+          </tr>
+        </table>
+      </div>
+
+      <div style="text-align: center">
+        <button class="more-btn" onclick="showMoreDonations(this)">
+          ⬇️ Many More ⬇️
+        </button>
+      </div>
+    </section>
+
+    <!-- ================= MONEY STATUS ================= -->
+
+    <section id="money-status">
+      <h1 class="title">💰 Mandal Money Status 💰</h1>
+
+      <div class="money-container">
+        <div class="money-card total-money">
+          <h2>-- एकूण पैसे जमा --</h2>
+          <p>₹ 1,25,000</p>
+        </div>
+
+        <div class="money-card expense-money">
+          <h2>-- एकूण पैसे खर्च --</h2>
+          <p>₹ 82,000</p>
+        </div>
+
+        <div class="money-card remaining-money">
+          <h2>-- एकूण पैसे शिल्लक --</h2>
+          <p>₹ 43,000</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= AARTI SECTION ================= -->
+
+    <section id="aarti">
+      <h1 class="title">🙏 आरती संग्रह 🙏</h1>
+
+      <div class="aarti-container">
+        <!-- GANPATI AARTI -->
+
+        <div class="aarti-card">
+          <h2>🪔 गणपती आरती 🪔</h2>
+
+          <p>
+            सुखकर्ता दुःखहर्ता वार्ता विघ्नाची ।<br />
+            नुरवी पूर्वी प्रेम कृपा जयाची ।<br />
+            सर्वांगी सुंदर उटी शेंदुराची ।<br />
+            कंठी झळके माळ मुक्ताफळांची ॥१॥ जय देव जय देव जय मंगलमूर्ती ।<br />
+            दर्शनमात्रे मनकामना पूर्ती ॥धृ॥
+          </p>
+        </div>
+
+        <!-- DEVI AARTI -->
+
+        <div class="aarti-card">
+          <h2>🌺 देवी आरती 🌺</h2>
+
+          <p>
+            दुर्गे दुर्घट भारी तुजविण संसारी ।<br />
+            अनाथनाथे अंबे करुणा विस्तारी ।<br />
+            वारी वारी जन्ममरणाते वारी ।<br />
+            हारी पडलो आता संकट निवारी ॥१॥ जय देवी जय देवी महिषासुरमर्दिनी ।<br />
+            सुरवर ईश्वरवरदे तारक संजीवनी ॥धृ॥
+          </p>
+        </div>
+
+        <!-- SHIV AARTI -->
+
+        <div class="aarti-card">
+          <h2>🔱 शिव आरती 🔱</h2>
+
+          <p>
+            लवथवती विक्राळा ब्रह्मांडी माळा ।<br />
+            वीषे कंठ काळा त्रिनेत्री ज्वाळा ।<br />
+            लावण्यसुंदर मस्तकी बाळा ।<br />
+            तेथुनिया जल निर्मळ वाहे झुळझुळा ॥१॥ जय देव जय देव जय श्रीशंकरा ।<br />
+            आरती ओवाळू तुज कर्पूरगौरा ॥धृ॥
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+      <h1 class="title">📞 Contact Us</h1>
+
+      <div class="contact-box">
+        <h2>🏦 Rupamata Mitra Mandal 🏦</h2>
+
+        <p>📞 Mobile: +91 8625887795</p>
+
+        <p>📧 Email: rupamatamandal@gmail.com</p>
+
+        <p>📍 Address: 4PFF+QF4, Savedi, Ahilyanagar, Maharashtra 414003</p>
+
+        <p>🗺️Live Location🗺️</p>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.61829085476!2d74.72111657525433!3d19.124394350451364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcba6535d37407%3A0x4907c833f89e1e3c!2sRupamata%20Society%20Complex!5e0!3m2!1sen!2sin!4v1779816119839!5m2!1sen!2sin"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= DIYAS ================= -->
+
+    <div class="diya-container">
+      <div class="diya">🪔</div>
+      <div class="diya">🪔</div>
+      <div class="diya">🪔</div>
+      <div class="diya">🪔</div>
+      <div class="diya">🪔</div>
+    </div>
+
+    <footer>
+      <h2>📿 Ganapati Bappa Morya, Mangal Murti Morya 📿</h2>
+    </footer>
+    <div class="foo">
+      <p>--- © 2026 Rupamata Mitra Mandal ---</p>
+    </div>
+
+    <script src="first.js"></script>
+  </body>
+</html>
